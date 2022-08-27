@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683E9A7328BA247B00787AE5 /* AuthCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E9A7228BA247B00787AE5 /* AuthCodeViewController.swift */; };
+		683E9A7728BA24E600787AE5 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E9A7628BA24E600787AE5 /* PlacesViewController.swift */; };
+		683E9A7928BA24F800787AE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E9A7828BA24F800787AE5 /* MapViewController.swift */; };
+		683E9A7B28BA250E00787AE5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E9A7A28BA250E00787AE5 /* MenuViewController.swift */; };
+		683E9A7D28BA252C00787AE5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E9A7C28BA252C00787AE5 /* NetworkManager.swift */; };
 		68B0086E28BA15A60014F8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0086D28BA15A60014F8C5 /* AppDelegate.swift */; };
 		68B0087028BA15A60014F8C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0086F28BA15A60014F8C5 /* SceneDelegate.swift */; };
-		68B0087228BA15A60014F8C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0087128BA15A60014F8C5 /* ViewController.swift */; };
-		68B0087528BA15A60014F8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B0087328BA15A60014F8C5 /* Main.storyboard */; };
+		68B0087228BA15A60014F8C5 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0087128BA15A60014F8C5 /* AuthViewController.swift */; };
 		68B0087728BA15AD0014F8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B0087628BA15AD0014F8C5 /* Assets.xcassets */; };
 		68B0087A28BA15AD0014F8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B0087828BA15AD0014F8C5 /* LaunchScreen.storyboard */; };
+		68C54F6728BA1B51005D2032 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */; };
+		690E523DEC429B8421CAAAF8 /* Pods_WinfoxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635B1BC22B0D681BA3C74C6F /* Pods_WinfoxTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622638B76AEE24D3F59E1DBA /* Pods-WinfoxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinfoxTest.release.xcconfig"; path = "Target Support Files/Pods-WinfoxTest/Pods-WinfoxTest.release.xcconfig"; sourceTree = "<group>"; };
+		635B1BC22B0D681BA3C74C6F /* Pods_WinfoxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinfoxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6504F566DF9E12B6279347C2 /* Pods-WinfoxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinfoxTest.debug.xcconfig"; path = "Target Support Files/Pods-WinfoxTest/Pods-WinfoxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		683E9A7228BA247B00787AE5 /* AuthCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCodeViewController.swift; sourceTree = "<group>"; };
+		683E9A7628BA24E600787AE5 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		683E9A7828BA24F800787AE5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		683E9A7A28BA250E00787AE5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		683E9A7C28BA252C00787AE5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		68B0086A28BA15A60014F8C5 /* WinfoxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinfoxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B0086D28BA15A60014F8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B0086F28BA15A60014F8C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68B0087128BA15A60014F8C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		68B0087428BA15A60014F8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B0087128BA15A60014F8C5 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		68B0087628BA15AD0014F8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B0087928BA15AD0014F8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B0087B28BA15AD0014F8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690E523DEC429B8421CAAAF8 /* Pods_WinfoxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A68753E3C856A3C2E28B217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6504F566DF9E12B6279347C2 /* Pods-WinfoxTest.debug.xcconfig */,
+				622638B76AEE24D3F59E1DBA /* Pods-WinfoxTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		683E9A7428BA248600787AE5 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				68B0087128BA15A60014F8C5 /* AuthViewController.swift */,
+				683E9A7228BA247B00787AE5 /* AuthCodeViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		683E9A7528BA249A00787AE5 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				683E9A7628BA24E600787AE5 /* PlacesViewController.swift */,
+				683E9A7828BA24F800787AE5 /* MapViewController.swift */,
+				683E9A7A28BA250E00787AE5 /* MenuViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
 		68B0086128BA15A60014F8C5 = {
 			isa = PBXGroup;
 			children = (
 				68B0086C28BA15A60014F8C5 /* WinfoxTest */,
 				68B0086B28BA15A60014F8C5 /* Products */,
+				4A68753E3C856A3C2E28B217 /* Pods */,
+				82141D8B35748DE2016ADECF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +103,23 @@
 			children = (
 				68B0086D28BA15A60014F8C5 /* AppDelegate.swift */,
 				68B0086F28BA15A60014F8C5 /* SceneDelegate.swift */,
-				68B0087128BA15A60014F8C5 /* ViewController.swift */,
-				68B0087328BA15A60014F8C5 /* Main.storyboard */,
+				683E9A7C28BA252C00787AE5 /* NetworkManager.swift */,
+				683E9A7528BA249A00787AE5 /* MainScreen */,
+				683E9A7428BA248600787AE5 /* Auth */,
 				68B0087628BA15AD0014F8C5 /* Assets.xcassets */,
 				68B0087828BA15AD0014F8C5 /* LaunchScreen.storyboard */,
+				68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */,
 				68B0087B28BA15AD0014F8C5 /* Info.plist */,
 			);
 			path = WinfoxTest;
+			sourceTree = "<group>";
+		};
+		82141D8B35748DE2016ADECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635B1BC22B0D681BA3C74C6F /* Pods_WinfoxTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68B0087E28BA15AD0014F8C5 /* Build configuration list for PBXNativeTarget "WinfoxTest" */;
 			buildPhases = (
+				C67491554DC10FBE5DD38FFE /* [CP] Check Pods Manifest.lock */,
 				68B0086628BA15A60014F8C5 /* Sources */,
 				68B0086728BA15A60014F8C5 /* Frameworks */,
 				68B0086828BA15A60014F8C5 /* Resources */,
+				C01EA8947DB3314D1C70BEEB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +168,9 @@
 				Base,
 			);
 			mainGroup = 68B0086128BA15A60014F8C5;
+			packageReferences = (
+				68C54F6828BA1C37005D2032 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 68B0086B28BA15A60014F8C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +187,73 @@
 			files = (
 				68B0087A28BA15AD0014F8C5 /* LaunchScreen.storyboard in Resources */,
 				68B0087728BA15AD0014F8C5 /* Assets.xcassets in Resources */,
-				68B0087528BA15A60014F8C5 /* Main.storyboard in Resources */,
+				68C54F6728BA1B51005D2032 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C01EA8947DB3314D1C70BEEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WinfoxTest/Pods-WinfoxTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WinfoxTest/Pods-WinfoxTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WinfoxTest/Pods-WinfoxTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67491554DC10FBE5DD38FFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WinfoxTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68B0086628BA15A60014F8C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B0087228BA15A60014F8C5 /* ViewController.swift in Sources */,
+				68B0087228BA15A60014F8C5 /* AuthViewController.swift in Sources */,
+				683E9A7928BA24F800787AE5 /* MapViewController.swift in Sources */,
 				68B0086E28BA15A60014F8C5 /* AppDelegate.swift in Sources */,
+				683E9A7B28BA250E00787AE5 /* MenuViewController.swift in Sources */,
+				683E9A7D28BA252C00787AE5 /* NetworkManager.swift in Sources */,
+				683E9A7728BA24E600787AE5 /* PlacesViewController.swift in Sources */,
 				68B0087028BA15A60014F8C5 /* SceneDelegate.swift in Sources */,
+				683E9A7328BA247B00787AE5 /* AuthCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		68B0087328BA15A60014F8C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68B0087428BA15A60014F8C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		68B0087828BA15AD0014F8C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +381,7 @@
 		};
 		68B0087F28BA15AD0014F8C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6504F566DF9E12B6279347C2 /* Pods-WinfoxTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +392,10 @@
 				INFOPLIST_FILE = WinfoxTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +405,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		68B0088028BA15AD0014F8C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622638B76AEE24D3F59E1DBA /* Pods-WinfoxTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +422,10 @@
 				INFOPLIST_FILE = WinfoxTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +461,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68C54F6828BA1C37005D2032 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 68B0086228BA15A60014F8C5 /* Project object */;
 }
