@@ -17,6 +17,7 @@
 		68B0087228BA15A60014F8C5 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0087128BA15A60014F8C5 /* AuthViewController.swift */; };
 		68B0087728BA15AD0014F8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B0087628BA15AD0014F8C5 /* Assets.xcassets */; };
 		68B0087A28BA15AD0014F8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B0087828BA15AD0014F8C5 /* LaunchScreen.storyboard */; };
+		68B7BC8628BA54A7001C86FB /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7BC8528BA54A7001C86FB /* TextFormatter.swift */; };
 		68C54F6728BA1B51005D2032 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */; };
 		690E523DEC429B8421CAAAF8 /* Pods_WinfoxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635B1BC22B0D681BA3C74C6F /* Pods_WinfoxTest.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		68B0087628BA15AD0014F8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B0087928BA15AD0014F8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B0087B28BA15AD0014F8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B7BC8528BA54A7001C86FB /* TextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatter.swift; sourceTree = "<group>"; };
 		68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				68B0086D28BA15A60014F8C5 /* AppDelegate.swift */,
 				68B0086F28BA15A60014F8C5 /* SceneDelegate.swift */,
 				683E9A7C28BA252C00787AE5 /* NetworkManager.swift */,
+				68B7BC8528BA54A7001C86FB /* TextFormatter.swift */,
 				683E9A7528BA249A00787AE5 /* MainScreen */,
 				683E9A7428BA248600787AE5 /* Auth */,
 				68B0087628BA15AD0014F8C5 /* Assets.xcassets */,
@@ -244,6 +247,7 @@
 				683E9A7928BA24F800787AE5 /* MapViewController.swift in Sources */,
 				68B0086E28BA15A60014F8C5 /* AppDelegate.swift in Sources */,
 				683E9A7B28BA250E00787AE5 /* MenuViewController.swift in Sources */,
+				68B7BC8628BA54A7001C86FB /* TextFormatter.swift in Sources */,
 				683E9A7D28BA252C00787AE5 /* NetworkManager.swift in Sources */,
 				683E9A7728BA24E600787AE5 /* PlacesViewController.swift in Sources */,
 				68B0087028BA15A60014F8C5 /* SceneDelegate.swift in Sources */,
