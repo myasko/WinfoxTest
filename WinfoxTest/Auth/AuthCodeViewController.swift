@@ -140,8 +140,10 @@ extension AuthCodeViewController {
                 ac.addAction(cancel)
                 self.present(ac, animated: true)
             } else {
-                let placesVC = PlacesViewController()
-                self.navigationController?.pushViewController(placesVC, animated: true)
+//                let placesVC = PlacesViewController()
+//                self.navigationController?.pushViewController(placesVC, animated: true)
+                let tabbar = TabBarViewController()
+                self.navigationController?.pushViewController(tabbar, animated: true)
             }
         }
         

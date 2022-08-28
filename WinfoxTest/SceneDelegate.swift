@@ -25,6 +25,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.makeKeyAndVisible()
         window.rootViewController = nav
 
+//        let authVC = AuthViewController()
+//        let nav = UINavigationController(rootViewController: authVC)
+//        let tabBar = TabBarViewController()
+//        self.window = window
+//        window.makeKeyAndVisible()
+//        window.rootViewController = tabBar
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
