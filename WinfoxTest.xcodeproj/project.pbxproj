@@ -19,6 +19,7 @@
 		68B0087A28BA15AD0014F8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B0087828BA15AD0014F8C5 /* LaunchScreen.storyboard */; };
 		68B7BC8628BA54A7001C86FB /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7BC8528BA54A7001C86FB /* TextFormatter.swift */; };
 		68B7BC8828BB8A74001C86FB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7BC8728BB8A73001C86FB /* TabBarViewController.swift */; };
+		68B7BC8A28BB9DE8001C86FB /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B7BC8928BB9DE8001C86FB /* PlaceCollectionViewCell.swift */; };
 		68C54F6728BA1B51005D2032 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */; };
 		690E523DEC429B8421CAAAF8 /* Pods_WinfoxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635B1BC22B0D681BA3C74C6F /* Pods_WinfoxTest.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		68B0087B28BA15AD0014F8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B7BC8528BA54A7001C86FB /* TextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatter.swift; sourceTree = "<group>"; };
 		68B7BC8728BB8A73001C86FB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		68B7BC8928BB9DE8001C86FB /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
 		68C54F6628BA1B51005D2032 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				683E9A7628BA24E600787AE5 /* PlacesViewController.swift */,
 				683E9A7828BA24F800787AE5 /* MapViewController.swift */,
 				683E9A7A28BA250E00787AE5 /* MenuViewController.swift */,
+				68B7BC8928BB9DE8001C86FB /* PlaceCollectionViewCell.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				68B7BC8628BA54A7001C86FB /* TextFormatter.swift in Sources */,
 				683E9A7D28BA252C00787AE5 /* NetworkManager.swift in Sources */,
 				683E9A7728BA24E600787AE5 /* PlacesViewController.swift in Sources */,
+				68B7BC8A28BB9DE8001C86FB /* PlaceCollectionViewCell.swift in Sources */,
 				68B0087028BA15A60014F8C5 /* SceneDelegate.swift in Sources */,
 				68B7BC8828BB8A74001C86FB /* TabBarViewController.swift in Sources */,
 				683E9A7328BA247B00787AE5 /* AuthCodeViewController.swift in Sources */,
