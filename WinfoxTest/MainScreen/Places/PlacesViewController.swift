@@ -7,16 +7,32 @@
 
 import UIKit
 
-class PlacesViewController: UIViewController {
+protocol PlacesViewControllerProtocol: AnyObject {
+    var presenter: PlacesPresenterProtocol! { get set }
+}
+
+class PlacesViewController: UIViewController, PlacesViewControllerProtocol {
+    var presenter: PlacesPresenterProtocol!
     
-    var collectionView: UICollectionView?
+    
+    var collectionView: UICollectionView!
+    var places: [Place] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        view.backgroundColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 0.7)
+        presenter = PlacesPresenter(view: self)
         navigationController?.navigationBar.isHidden = true
         setUpCollectionView()
         setUpUI()
+        self.presenter.setUpData()
+        presenter.output = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
     }
     
     func setUpCollectionView() {
@@ -26,7 +42,7 @@ class PlacesViewController: UIViewController {
         layout.minimumLineSpacing = 1
         layout.minimumInteritemSpacing = 1
         layout.itemSize = CGSize(width: (view.frame.size.width / 4) - 4,
-                                 height: (view.frame.size.width / 4) - 4)
+                                 height: (view.frame.size.width / 4) + 5)
 
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         guard let collectionView = collectionView else {
@@ -34,7 +50,7 @@ class PlacesViewController: UIViewController {
         }
 
         collectionView.isScrollEnabled = true
-        collectionView.backgroundColor = .gray
+        collectionView.backgroundColor = .clear
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(PlaceCollectionViewCell.self, forCellWithReuseIdentifier: PlaceCollectionViewCell.indentifier)
@@ -51,16 +67,32 @@ class PlacesViewController: UIViewController {
 extension PlacesViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PlaceCollectionViewCell.indentifier, for: indexPath) as! PlaceCollectionViewCell
-        cell.configure(title: "Название \(indexPath.row)")
+        let place = presenter.places[indexPath.row]
+        places = presenter.places
+        cell.configure(title: place.name ?? "Заведение", image: place.image!) //place.image!
+        print(place.image!)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 8
+        self.presenter.places.count
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Заведение \(indexPath.row)")
     }
     
+}
+
+extension PlacesViewController: PlacesPresetnerOutput {
+    func success() {
+        DispatchQueue.main.async {
+            self.collectionView.reloadData()
+        }
+        print("succ")
+    }
+    
+    func failure() {
+        print("err")
+    }
 }

@@ -11,17 +11,16 @@ class PlaceCollectionViewCell: UICollectionViewCell {
     
     static let indentifier = "PlaceCollectionViewCell"
     
-    lazy var posterImage: UIImageView! = {
-        let image = UIImageView(image: UIImage(systemName: "person.fill"))
+    var poster: NetworkImageView! = {
+        let image = NetworkImageView()
         image.clipsToBounds = true
-        image.layer.masksToBounds = true
         image.layer.cornerRadius = 10
         image.contentMode = .scaleToFill
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
     }()
     
-    lazy var titleLabel: UILabel! = {
+    var titleLabel: UILabel! = {
         let label = UILabel()
         label.text = "Название"
         label.numberOfLines = 0
@@ -46,15 +45,24 @@ class PlaceCollectionViewCell: UICollectionViewCell {
     }
     
     private func layout() {
-        contentView.addSubview(posterImage)
+        contentView.addSubview(poster)
         contentView.addSubview(titleLabel)
+        contentView.backgroundColor = UIColor(red: 0.56, green: 0.49, blue: 0.67, alpha: 0.5)
+        contentView.layer.cornerRadius = 10
+        let height = contentView.frame.height
+        let width = contentView.frame.width
         
-        posterImage.frame = CGRect(x: 5, y: 0, width: contentView.frame.size.width - 10, height: contentView.frame.size.height - 50)
-        titleLabel.frame = CGRect(x: 5, y: contentView.frame.size.height - 50, width: contentView.frame.size.width - 10, height: 50)
+        poster.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5).isActive = true
+        poster.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+        poster.heightAnchor.constraint(equalToConstant: height - 25).isActive = true
+        poster.widthAnchor.constraint(equalToConstant: width - 15).isActive = true
+        titleLabel.topAnchor.constraint(equalTo: poster.bottomAnchor, constant: 1).isActive = true
+        titleLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
     }
     
-    public func configure(title: String) {
+    public func configure(title: String, image: String) {
         titleLabel.text = title
+        poster.loadImage(url: URL(string: image)!)
     }
     
     override func prepareForReuse() {
@@ -62,3 +70,4 @@ class PlaceCollectionViewCell: UICollectionViewCell {
         titleLabel.text = nil
     }
 }
+
