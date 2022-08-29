@@ -43,7 +43,7 @@ class AuthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 0.7)
+        view.backgroundColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 1)
         phoneNumberTextField.delegate = self
         getCodeButton.addTarget(self, action: #selector(getCode), for: .touchUpInside)
         getCodeButton.alpha = 0.5

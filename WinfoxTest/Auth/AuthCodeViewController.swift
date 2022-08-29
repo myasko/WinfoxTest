@@ -64,7 +64,7 @@ class AuthCodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 0.7)
+        view.backgroundColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 1)
         codeTextField.delegate = self
         doneButton.addTarget(self, action: #selector(checkCode), for: .touchUpInside)
         getCodeAgainButton.addTarget(self, action: #selector(getCodeAgain), for: .touchUpInside)

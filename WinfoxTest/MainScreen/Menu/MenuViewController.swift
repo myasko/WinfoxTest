@@ -14,7 +14,7 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .lightGray
+        view.backgroundColor = UIColor(red: 0.86, green: 0.86, blue: 0.86, alpha: 1)
         self.tabBarController?.tabBar.isHidden = true
         setUpCollectionView()
         print(menu)
